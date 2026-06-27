@@ -1,0 +1,22 @@
+{
+  "name": "Hermes Agent",
+  "short_name": "Hermes",
+  "description": "AI Agent 后台 — 管理定时任务、查询信息",
+  "start_url": "/hermes",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#0f0f1a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/hermes/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
